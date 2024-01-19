@@ -12,6 +12,7 @@ body{
     background-blend-mode:multiply;
     
     
+    
 }
 
 
@@ -70,3 +71,95 @@ body{
 .container {
   margin-top: 20vh;
 }
+
+.sidenav {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    z-index:1;
+    top:0;
+    left:0;
+    background-color: black;
+    overflow-x: hidden;
+    padding-top: 20px;
+
+}
+
+.sidenav a{
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    display: block;
+}
+
+.main{
+    margin-left: 250px;
+    padding: 0px 10px;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  
+.box {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  content: "";
+  background: linear-gradient(45deg, transparent, transparent 40%, yellow),
+      linear-gradient(#262626, #141414);
+  animation: rotate 30s linear infinite;
+}
+
+.box:before,
+.box:after {
+  content:"";
+  position: absolute;
+  inset: 9px;
+  background-image: url(images/KW.png);
+  background-size: contain;
+  border-radius: inherit;
+}
+
+.box:before {
+  
+  background: linear-gradient(45deg, transparent, transparent 40%, yellow);
+  filter: blur(32px);
+}
+
+@keyframes rotate {
+  100% {
+    transform: rotate(360deg);
+    filter: hue-rotate(360deg);
+  }
+}
+
+.neonText-side {
+  color: red;
+  text-shadow:
+      0 0 7px red,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px red,
+      0 0 82px red,
+      0 0 92px red,
+      0 0 102px red,
+      0 0 151px red;
+      text-align: left;
+      font-weight: 500;
+      font-size: 25px;
+    
+    
+    
+}
+  
+  
+ 
+    
+    
