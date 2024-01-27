@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Gudea&display=swap');
+
 /*body{
     height: 2000px;
     background-color: rgb(163, 102, 107);
@@ -15,6 +17,11 @@ body{
     
 }
 
+/*------------------------NAME HEADER----------------------------*/
+
+.container {
+  margin-top: 10vh;
+}
 .neonText {
   color: #fff;
   text-shadow:
@@ -27,6 +34,7 @@ body{
       0 0 102px #0fa,
       0 0 151px #0fa;
       text-align: center;
+      margin-top: 0;
       font-weight: 500;
       font-size: 7.2rem;
       font-family: "Satisfy", sans-serif;
@@ -66,11 +74,9 @@ body{
 }
   
   
+/*-----------------SIDE NAV--------------------*/
 
 
-.container {
-  margin-top: 20vh;
-}
 
 .sidenav {
     height: 100%;
@@ -88,6 +94,7 @@ body{
 .sidenav a{
     padding: 6px 8px 6px 16px;
     text-decoration: none;
+    font-family: Gudea, sans-serif;
     font-size: 20px;
     color: white;
     display: block;
@@ -159,6 +166,8 @@ body{
   text-shadow: 0 0 15px #097e51;
 }
 
+/*----------------------- Signature Rotating Box ------------------------*/
+
 .main{
     margin-left: 250px;
     padding: 0px 10px;
@@ -206,6 +215,8 @@ body{
   }
 }
 
+/*-----------------------OPEN FOR HIRE------------------------*/
+
 .neonText-side {
   color: red;
   text-shadow:
@@ -246,18 +257,19 @@ body{
 
 }
 
-.section{
+.about-me{
   margin-top: 100px;
   /* padding-top: 30px; */
   margin-left: 75px;
   margin-right:75px;
   text-align:center;
   color:white;
-  font-size: 25px;
-  
+  font-size: 22px;
+  font-family: Gudea, sans-serif;
   border: .02rem solid #0fa;
   border-radius:2rem;
-  padding: 0.4em;
+  padding: 2rem;
+  line-height: 2.5rem;
   box-shadow:   0 0 .2rem #fff,
                 0 0 .2rem #fff,
                 0 0 2rem #fff,
@@ -265,12 +277,13 @@ body{
                 0 0 0.8rem #0fa,
                 0 0 2.8rem #0fa,
                 inset 0 0 1.3rem#0fa;
+
 }   
   .skills-title{
     padding-top:100px;
-    padding-left: 75px;
+    padding-left: 100px;
     text-align: left;
-  
+    font-family: Gudea, sans-serif;
     font-size: 60px;
     color: #fff;
     text-shadow:
@@ -317,4 +330,26 @@ body{
               0 0 151px #0fa;
         }
         
+  }
+
+  .skills-icon{
+    margin-left: 100px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    display: grid;
+    grid-template-columns: repeat(3,2fr);
+   
+    font-size: 25px;
+    color: white;
+    /* align-items: baseline; */
+  
+    align-content:center ;
+    gap: 0;
+  
+  
+  }
+
+  .skills-icon i{
+    font-size: 50px;
+    
   }
