@@ -4,6 +4,9 @@
 /* * {
   border: 1px red dashed;
 } */
+.html{
+  overflow-x:hidden;
+}
 .main{
   width: 80%;
 }
@@ -74,6 +77,10 @@ body{
   
   
 /*-----------------SIDE NAV--------------------*/
+#check,
+    .menu{
+    display: none;
+    }
 
 
 
@@ -449,3 +456,25 @@ body{
   /* opacity: 1; */
 
 
+  @media screen and (max-width: 600px) {
+  html{
+    overflow-x:hidden;
+  }
+    .main{
+      width:70%;
+    }
+  .sidenav{
+     width: 37%;
+  }
+  .about-me{
+    margin:auto;
+  }
+  .skills-title{
+    padding-left:50px;
+  }
+  .skills-icon{
+    margin-left: 0;
+  }
+}
+ 
+  
