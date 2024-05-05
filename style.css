@@ -13,7 +13,7 @@
 body{
     background-image: url(images/360_F_559150324_knVyGgrIKnv77TqqLimeqmGXfLoSfVJi.jpg);
     background-attachment: cover;
-    background-color: rgb(131, 121, 121);
+    background-color: rgb(170, 160, 160);
     background-blend-mode:multiply;
        
 }
@@ -251,7 +251,10 @@ body{
                     0 0 0.8rem rgb(36, 142, 192),
                     0 0 2.8rem rgb(36, 142, 192),
                     inset 0 0 1.3rem rgb(36, 142, 192);
-    }   
+
+    }  
+/*     
+     ///////////////////////////////HOME PAGE///////////////////////////// */
 
 .title{
   padding-top:35px;
